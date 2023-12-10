@@ -33,7 +33,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: docker/build-push-action@v5
         with:
-          image: xvisox/${{ github.repository }}
+          image: xvisox/template-service
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
