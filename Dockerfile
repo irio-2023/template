@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17
 EXPOSE 8080
 WORKDIR /app
 COPY target/template-service.jar /app/template-service.jar
